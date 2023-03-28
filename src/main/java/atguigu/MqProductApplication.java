@@ -5,12 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Hello world!
- *
  */
 @SpringBootApplication
-public class MqProductApplication
-{
+public class MqProductApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MqProductApplication.class,args);
+        SpringApplication.run(MqProductApplication.class, args);
     }
 }
