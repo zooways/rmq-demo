@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+rocketmq:
+  name-server: 192.168.31.55:9876
+  producer:
+    group: mq-producer
+  consumer:
+    group: mq-consumer
+    topic: first-topic
